@@ -1,10 +1,171 @@
 *{
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
 
 
-
+}
+button{
+    border:2px solid #87B670;
+    border-radius: 9px;
+    background-color: #fff;
+}
+button:hover{
+    background-color: #97BC5D;
+    color: #ffffff;
+    transition: 0.3s;
 }
 body{
-    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    background-color: #fff;
+    max-width: 1440px;
+    min-height:100vh;
+    list-style-type: disc;
+
 }
+.header{
+    max-width: 1440px;
+    max-height: 85px;
+}
+.nav-items{ 
+    padding: 22px 55px;
+}
+.logo-image{
+    width: 97px;
+    height: 63px;
+    margin-top: 8px;
+    margin-left: 121px;
+    
+}
+.list-nav{        
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+ 
+}
+.list-nav li{
+    margin-top: 28px;
+}
+
+.list-nav li:hover{
+    border-bottom: 1px solid #87B670;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.btn{
+    margin-top: 15px;
+    width:180px;
+    height:50px;
+    margin-right: 121px;
+}
+@media screen and (max-width: 650px) {
+    .list-nav{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        
+    }
+    
+   
+    
+  
+    
+}
+
+.modal-btn{
+    background-color: #97BC5D;
+    color: #fff;
+    width:223px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-btn:hover{
+    background-color: #fff;
+    color: #97BC5D;
+}
+.download-btn{
+    width:306px;
+    height:50px;
+}
+.content-green-h2{
+    color:#87B670;
+    font-size:25px;
+    line-height: 140%;
+}
+.main-content{
+    margin-left: 120px;
+    margin-top: 265px;  
+}
+
+.mac-img{
+    width: 1248px;
+    height: 794px;
+    position: absolute;
+    margin-left: 321px;
+    margin-top: -67px;
+    background:url(img/mac.png);
+}
+.article-container{
+    width: 684px;   
+
+}
+.content-green-h2{
+    width: 528px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 140%;
+}
+.content-h1{
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 72px;
+
+}
+.content-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+
+
+.object-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/.background-dots1.png);
+}
+
+@media screen and(max-width:650px){
+    .object-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.background-dot{
+    width: 266px;
+    height: 266px;
+    padding-left:-118px;
+}
+.background-roll{
+    transform: rotate(-10.18deg);
+}
+.heading{
+    font-size:40px;
+    line-height: 131.1%;
+    text-align: center;
+}
+
+
