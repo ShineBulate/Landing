@@ -8,11 +8,13 @@
 button{
     border:2px solid #87B670;
     border-radius: 9px;
-    background-color: #fff;
+    background: #fff;
+    color: #C0D997;
 }
 button:hover{
-    background-color: #97BC5D;
-    color: #ffffff;
+    
+    color: #C0D997;
+    background-color: #fff;
     transition: 0.3s;
 }
 body{
@@ -27,6 +29,7 @@ body{
 .header{
     max-width: 1440px;
     max-height: 85px;
+   
 }
 .nav-items{ 
     padding: 22px 55px;
@@ -42,7 +45,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    
 
  
 }
@@ -58,64 +61,82 @@ body{
 
 
 .btn{
+
     margin-top: 15px;
     width:180px;
     height:50px;
     margin-right: 121px;
+}
+.btn:hover,.download-btn:hover{
+    background: linear-gradient(98.8deg, #97BC5D 0.78%, #C0D997 98.41%);
+    box-shadow: 0px 10px 30px rgba(135, 182, 112, 0.3);
+    background-color: #C0D997;
+    color: #fff;
 }
 @media screen and (max-width: 650px) {
     .list-nav{
         flex-direction: column;
         text-align: center;
         align-items: center;
-
         
     }
+
     
-   
-    
-  
-    
+}
+.download-btn{
+    color:#C0D997;
+    width:306px;
+    height:50px;
+    margin-top: 5%;
 }
 
 .modal-btn{
-    background-color: #97BC5D;
+    background: linear-gradient(98.8deg, #97BC5D 0.78%, #C0D997 98.41%);
+    box-shadow: 0px 10px 30px rgba(135, 182, 112, 0.3);
     color: #fff;
     width:223px;
     height:50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+    gap:10px;
 }
 .modal-btn:hover{
-    background-color: #fff;
+    background: #fff;
     color: #97BC5D;
 }
-.download-btn{
-    width:306px;
-    height:50px;
-}
+
+/* .main-content{
+    display: flex;
+} */
 .content-green-h2{
     color:#87B670;
     font-size:25px;
     line-height: 140%;
 }
-.main-content{
-    margin-left: 120px;
-    margin-top: 265px;  
+.article-container{
+    display: flex;
+    margin-left: 151px;
+    margin-top: 215px;
+}
+
+.article-text{
+    z-index: 2;
+    flex-grow: 2;
+
 }
 
 .mac-img{
+    display: flex;
+    position: absolute;
     width: 1248px;
     height: 794px;
-    position: absolute;
-    margin-left: 321px;
-    margin-top: -67px;
-    background:url(img/mac.png);
-}
-.article-container{
-    width: 684px;   
-
+    margin-left: 321px; 
+    margin-top: -175px;
+    background: url('../img/png/mac.png');
+    background-repeat: no-repeat;
+    z-index: 1;
 }
 .content-green-h2{
     width: 528px;
@@ -131,41 +152,93 @@ body{
 
 }
 .content-text{
+    display: flex;
+    flex-wrap: nowrap;
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
+    max-width: 574px; 
 }
 
-
+.heading{
+    margin-top: 15%;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 131.1%;
+}
+.flex-article{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .object-container{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    background-image: url(img/.background-dots1.png);
+    flex-wrap: wrap;
+    gap: 216px;
+    
 }
+
 
 @media screen and(max-width:650px){
     .object-container{
         flex-direction: column;
         align-items: center;
     }
+  
+}
+.object-container-2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #fff;
+
 }
 
-.background-dot{
-    width: 266px;
-    height: 266px;
-    padding-left:-118px;
-}
-.background-roll{
-    transform: rotate(-10.18deg);
-}
-.heading{
-    font-size:40px;
-    line-height: 131.1%;
+.left-block, .right-block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    background-color: #87B670;
+    width: 394px;
+    height: 281.2px;
+    border-radius: 9px;
+    margin-top: 50px;
+  
 }
+.middle-block{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #87B670;
+    width: 489px;
+    height: 349px;
+    border-radius: 9px;
+    
+}
+ 
 
+.topic{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+}
+.description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+@media screen and(max-width:650px) {
+    .object-container-2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
