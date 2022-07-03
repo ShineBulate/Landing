@@ -9,7 +9,17 @@
     <title>Utopia Maket</title>
 </head>
 <body>
-
+    <div class="modal-container">
+        <div class="modal-windows" id="modal_view" >
+            <span class="close">&times;</span>
+            <form action="#" method="post" name="modal-form">
+                <input type="text" name="username" maxlength="50" placeholder="Ваше Имя" required/><br>
+                <input type="test" name="phone" maxlength="12" placeholder="Ваш телефон" required/><br>
+                <button name="send" class="btn" value="">Заказать звонок</button>
+            </form>
+        </div>
+    </div>  
+    <!-- Голова -->
     <header class="header">
         <nav>
 
@@ -24,13 +34,13 @@
                 <li>Комьюнити</li>
                 <li>Обзор</li>
                 <li>F.A.Q</li>
-                <button class="btn">Скачать сейчас!</button>
+                <button class="btn" id="modal-btn">Скачать сейчас!</button>
             </ul>
          
         </nav>
     
     </header>
-    
+    <!-- Основной конент -->
     <main class="main-content">
         
        <article class="article-container">
@@ -41,11 +51,11 @@
         <span class="content-text">
             Utopia P2P — это децентрализованная многофункциональная экосистема с низким углеродным следом. Он объединяет сознательных людей и дает им возможность бесплатно пользоваться зеленым Интернетом.
         </span>
-        <button class="modal-btn">Попробуй сейчас!</button>
+        <button class="modal-btn" id="modal-btn">Попробуй сейчас!</button>
        
     </div>
     </article>
-    
+    <!-- Первый контейнер -->
     <article class="flex-article">
         <h1 class="heading">Каковы основные инструменты Utopia P2P?</h1>
             <div class="object-container">
@@ -83,8 +93,9 @@
           
         </div>
         </div>
-        <button class="download-btn">Скачать сейчас</button>
+        <button class="download-btn" id="modal-btn">Скачать сейчас</button>
     </article>
+    <!-- Второй контейнер -->
     <article class="flex-article">
         <h1 class="heading">Почему интернет не экологичный?</h1>
         <div class="object-container-2">
@@ -107,9 +118,45 @@
         </div>
         </div>
     </article>
+    <!-- Третий контейнер -->
+    <article>
+        <div class="object-container-3">
+            <h1 class="heading">Что делает Utopia P2P экологически позитивной?</h1>
+            <div class="flex-column-1">
+                <span class="large-span">
+                     Что делает Utopia P2P экологически позитивной?
+                </span><br>
+                <span class="small-span">
+                    Utopia P2P стремится сделать мир лучше.Таким образом, речь идет о правах человека, сознательном потреблении энергии и единстве.
+                </span>
+                <img src="img/png/laptop.png" class="laptop"/>
+                <button class="modal-btn" id="modal-btn">Скачать сейчас!</button>
+            </div>
+            <span class="obj-circle"></span>
+           
+            <div class="flex-column-2">
+                <span class="team"></span>
+                <span class="large-span-1">
+                    Что делает Utopia P2P экологически позитивной?
+               </span><br>
+               <span class="small-span-1">
+                   Utopia P2P стремится сделать мир лучше.Таким образом, речь идет о правах человека, сознательном потреблении энергии и единстве.
+               </span>
+                
+                <button class="modal-btn" id="modal-btn">Скачать сейчас!</button>
+                
+                
+            </div>
+            
+        </div>
+
+       
+    </article>
     </main>
+    
     <footer></footer>
     
 
+<script src="js/script.js"></script>
 </body>
 </html>
