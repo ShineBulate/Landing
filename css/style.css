@@ -196,6 +196,17 @@ body{
     line-height: 140%;
     max-width: 574px; 
 }
+.container-1-roll{
+
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1795.56px;
+    height: 1087.53px;
+    background: #F7F8F3;
+    z-index: -1;
+    border-radius: 300px;
+    transform: rotate(-10.18deg);
+}
 
 .heading{
     margin-top: 15%;
@@ -276,6 +287,7 @@ body{
     .object-container-2{
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 }
 .object-container-3{
@@ -284,6 +296,12 @@ body{
     margin-top: 5%;
     text-align: center;
 
+}
+@media screen and(max-width:650px){
+    .object-container-3{
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 .flex-column-1{
     display: flex;
@@ -321,6 +339,7 @@ body{
     height: 479px;
     position: absolute;
     align-self: flex-end;
+    border-radius: 35px;
 }
 .flex-column-1 button{
     margin-left: 5%;
@@ -359,6 +378,7 @@ body{
     height: 479px;
 }
 .large-span-1{
+    text-align: left;
     margin-right:15%;
     width: 380px;
     font-style: normal;
@@ -368,6 +388,7 @@ body{
     
 }
 .small-span-1{
+    text-align: left;
     margin-right: 14%;
     width: 394px;
     font-style: normal;
@@ -378,4 +399,286 @@ body{
 .flex-column-2 button{
     margin-right: 27%;
 
+}
+.flex-column-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    margin-top: 15%;
+
+}
+.back-roll{
+    position: absolute;
+
+    width: 1872.27px;
+    height: 619px;
+    background: #F7F8F3;
+    border-radius: 300px;
+    z-index: -1;
+    border-radius: 300px;
+    transform: matrix(-0.98, -0.18, -0.18, 0.98, 0, 0);
+}
+.back-dots{
+    position: absolute;
+    background: url('../img/png/dots2.png');
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    width: 266px;
+    height: 266px;
+    opacity: 0.2;
+ 
+
+}
+.dots{
+    background: url('../img/png/cirlcle_wave.png');
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    opacity: 0.5;
+    
+}
+.rectangle{
+    justify-content: center;
+    position: absolute;
+    background: url('../img/png/bar.png');
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 5px;
+    border-radius: 100px;
+
+}
+.column-3-large{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 131.1%;
+}
+.column-3-small{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+.object-container-3 button{
+    margin-left: 45%;
+   
+    
+}
+.flex-column-4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    align-self:center;
+    border-radius: 35px; 
+    width: 1319px;
+    height: 479px;
+    margin-top:15%;
+    margin-left: 120px;
+}
+.flex-column-4 button{
+    z-index: 1;
+    align-self: center;
+}
+
+.pc{
+    position: absolute;
+    z-index: -1;
+    width: 1319px;
+    height: 479px;
+    align-self: flex-start;
+
+}
+.column-4-large{
+    text-align: left;
+    margin-right:15%;
+    width: 380px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 131.1%;
+    position: relative;
+    color:#fff;
+}
+.column-4-small{
+    text-align: left;
+    margin-right:11%;
+    position: relative;
+    width: 427px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color:#fff;
+}
+.column-4-back{
+    
+    width: 838px;
+    height: 479px;
+    position: absolute;
+    background: #87B670;
+    border-radius: 35px; 
+}
+.flex-column-5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 35px; 
+    width: 1319px;
+    height: 479px;
+    margin-top:15%;
+    margin-left: 120px;
+}
+.flex-column-5 button{
+   align-self: center;
+    z-index: 1;
+    margin-left: -60%;
+
+}
+.column-5-large{
+    width: 380px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 131.1%;
+    position: relative;
+    color:#fff;
+    text-align: left;
+    padding-left:5%;
+
+}
+.column-5-small{
+    position: relative;
+    width: 427px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color:#fff;
+    text-align: left;
+    padding-left:5%;
+
+}
+.column-5-back{
+    transform: rotate(0.19deg);
+    align-self: flex-start;
+    width: 838px;
+    height: 479px;
+    position: absolute;
+    background: #87B670;
+    border-radius: 35px; 
+}
+.man{
+    position: absolute;
+    z-index: 1;
+    width: 833px;
+    height: 479px;
+    align-self: flex-end;
+    border-radius: 35px;
+    
+}
+.object-container-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.user-img{
+width: 370px;
+height: 244px;
+}
+.user-column-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    
+}
+.user-large-1{
+        
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 131.1%;
+}
+.user-hidden-1{
+    display: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+.open-btn{
+    margin-left:50%;
+    background: url('../img/png/open-btn.png');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+   
+}
+.open-btn:hover{
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+.user-column-3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 1196.16px;
+    height: 395.01px;
+    background-color:#C0D997 ;
+    border-radius: 35px;
+    color:#fff;
+    justify-content: center;
+}
+.user-column-large{
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 131.1%;
+}
+.user-column-small{
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+
+}
+.user-column-3 button{
+    margin-left:35%;
+}
+.footer-hr{
+    width:80%;
+    color:#C0D997;
+    margin-left:10%;
+    margin-top:5%;
+}
+footer{
+    margin-top:5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 100px;
+    align-self: flex-end;
+}
+.footer-logo{
+    width: 65px;
+    height: 42px;
+    margin-left:10%;
+}
+.footer-logo-2{
+    margin-right:8%;
+    filter: drop-shadow(0px 4px 20px rgba(255, 255, 255, 0.25));
 }
