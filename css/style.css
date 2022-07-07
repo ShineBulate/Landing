@@ -53,13 +53,12 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     background-color: #fff;
-    max-width: 1440px;
+    max-width: 100%;
     min-height:100vh;
     list-style-type: disc;
 
 }
 .header{
-    max-width: 1440px;
     max-height: 85px;
    
 }
@@ -179,7 +178,6 @@ body{
 }
 .content-green-h2{
     width: 528px;
-    height: 35px;
     font-weight: 600;
     font-size: 25px;
     line-height: 140%;
@@ -325,7 +323,6 @@ body{
     font-size: 30px;
     line-height: 131.1%;
     width: 380px;
-    height: 78px;
 }
 .small-span{
     text-align: center;
@@ -362,7 +359,7 @@ body{
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    align-self:center;
+    align-self:flex-end;
     background: #F7F8F3;
     border-radius: 35px; 
     width: 1319px;
@@ -472,7 +469,7 @@ body{
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    align-self:center;
+    align-self:flex-end;
     border-radius: 35px; 
     width: 1319px;
     height: 479px;
@@ -528,6 +525,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    align-self: flex-end;
     border-radius: 35px; 
     width: 1319px;
     height: 479px;
