@@ -1,8 +1,11 @@
 <html>
   <header>
-    <span style="font-size:18pt;">Hello welcome to utopia-non-adaptive-landing page
-      
-</span>
+    <pre style="font-size:18pt;">
+      Hello welcome to utopia-non-adaptive for mobile landing page
+      ここで来てありがとうございました。
+      ここでアダプテーションないのランディングページ(携帯アダプテーションはない）ページ
+       P.S(i can to add adaptive if need　・　必要ならやります)
+</pre>
   </header>
 <div style="">
 <h1>Header</h1>
