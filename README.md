@@ -3,7 +3,7 @@
     <pre style="font-size:18pt;">
       Hello welcome to utopia-non-adaptive for mobile landing page
       ここで来てありがとうございました。
-      ここでアダプテーションないのランディングページ(携帯アダプテーションではありません）ページ
+      ここでアダプテーションのランディングページはありません(携帯アダプテーションではありません）ページ
        P.S(i can to add adaptive if need　・　必要ならやります)
 </pre>
   </header>
