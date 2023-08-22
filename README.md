@@ -42,9 +42,11 @@
   <h1>Footer</h1>
   <img src="https://github.com/ShineBulate/utopia-non-adaptive-landing/assets/89338809/3c9bd208-1062-441e-b567-ef55cd67a3fc/">
   
-<span style="forn-size:16pt;">
+<pre style="forn-size:16pt;">
   All remarks i you can send to my mail Shinohara43@icloud.com
   Thank you for watch!
-</span>
+  ここまで読んでくれてありがとうございました。
+  もし質問あればメールを連絡してください
+</pre>
 </div>
 </html>
